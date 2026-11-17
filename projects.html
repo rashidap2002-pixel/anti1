@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects – Structura Engineers & Builders</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="logo">Structura</div>
+      <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="#" class="cta-btn">Get a Quote</a>
+    </nav>
+    <nav class="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+      <a href="#" class="cta-btn">Get a Quote</a>
+    </nav>
+  </header>
+
+  <section class="section fade-in">
+    <h2>Our Projects</h2>
+    <div class="filter-bar" style="text-align:center; margin-bottom:1rem;">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="residential">Residential</button>
+      <button class="filter-btn" data-filter="commercial">Commercial</button>
+      <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+    </div>
+    <div class="cards" id="project-grid">
+      <div class="card project-card" data-category="residential">
+        <img src="https://source.unsplash.com/400x300?house" alt="Project 1" />
+        <h3>Luxury Villa, Thrissur</h3>
+        <p>Elegant 4‑bedroom villa with modern amenities.</p>
+      </div>
+      <div class="card project-card" data-category="commercial">
+        <img src="https://source.unsplash.com/400x300?office" alt="Project 2" />
+        <h3>Office Complex, Kochi</h3>
+        <p>150,000 sq ft sustainable office park.</p>
+      </div>
+      <div class="card project-card" data-category="infrastructure">
+        <img src="https://source.unsplash.com/400x300?bridge" alt="Project 3" />
+        <h3>River Bridge, Alappuzha</h3>
+        <p>Steel‑girder bridge spanning 120 m.</p>
+      </div>
+      <!-- Additional placeholder projects -->
+      <div class="card project-card" data-category="residential">
+        <img src="https://source.unsplash.com/400x300?apartment" alt="Project 4" />
+        <h3>Apartment Complex, Kozhikode</h3>
+        <p>30‑unit mid‑range apartments.</p>
+      </div>
+      <div class="card project-card" data-category="commercial">
+        <img src="https://source.unsplash.com/400x300?mall" alt="Project 5" />
+        <h3>Shopping Mall, Trivandrum</h3>
+        <p>200,000 sq ft retail space.</p>
+      </div>
+      <div class="card project-card" data-category="infrastructure">
+        <img src="https://source.unsplash.com/400x300?road" alt="Project 6" />
+        <h3>Highway Upgrade, Palakkad</h3>
+        <p>4‑lane expansion with drainage.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Structura Engineers & Builders. All rights reserved.</p>
+    <p><a href="mailto:info@structura.com">info@structura.com</a> | +91 98765‑43210</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
